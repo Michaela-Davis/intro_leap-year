@@ -1,3 +1,11 @@
+// BUSINESS LOGIC
+var leapYear = function(year) {
+  return false;
+};
+
+
+
+// USER INTERFACE LOGIC
 $(document).ready(function() {
 
   // attach a submit listener to our form.
@@ -9,8 +17,6 @@ $(document).ready(function() {
 
     // call a leapYear() function (which we will write momentarily), pass it the year variable as an argument, and assign the return value (which will be true or false) to the variable result.
     var result = leapYear(year);
-
-    
 
     // display the returned boolean value (currently assigned to the variable result) on the web page with the line
     $("#result").text(result);
